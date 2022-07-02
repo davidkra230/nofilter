@@ -1,7 +1,7 @@
 # nofilter
 removes the minecraft: bedrock edition language filter.
 
-**REQUIRES ADMIIN**
+**REQUIRES ADMIN**
 
 what else can i say?
 
