@@ -1,7 +1,9 @@
 # nofilter
 removes the minecraft: bedrock edition language filter.
 
-what can i say?
+**REQUIRES ADMIIN**
+
+what else can i say?
 
 * goes to the minecraft files
 * removes profanity-filter.wlist
