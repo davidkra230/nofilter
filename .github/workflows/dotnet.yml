@@ -25,5 +25,5 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - uses: actions/upload-artifact@v3
       with:
-        name: Output Build
+        name: Build Output
         path: bin/Debug/netcoreapp3.1/win-x64/publish/nofilter.exe # or path/to/artifact
