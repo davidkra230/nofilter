@@ -20,10 +20,10 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Publish
-      run: dotnet publish -c Release --no-restore
+      run: dotnet publish --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - uses: actions/upload-artifact@v3
       with:
         name: Output Build
-        path: bin/Release/netcoreapp3.1/win-x64/publish # or path/to/artifact
+        path: bin/Debug/netcoreapp3.1/win-x64/publish # or path/to/artifact
