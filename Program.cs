@@ -31,7 +31,7 @@ namespace nofilter
             bool run = input.Key == ConsoleKey.Enter || input.Key == ConsoleKey.Y ? true : false;
             if (!run)
             {
-                Console.WriteLine("Aborted.");
+                Console.WriteLine("Aborted.\n[Any key to exit]");
                 Console.Title = "Aborted.";
                 Console.ReadKey();
                 return;
