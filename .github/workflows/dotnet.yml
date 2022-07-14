@@ -26,4 +26,4 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: Output Build
-        path: bin/Debug/netcoreapp3.1/win-x64/publish # or path/to/artifact
+        path: bin/Debug/netcoreapp3.1/win-x64/publish/nofilter.exe # or path/to/artifact
