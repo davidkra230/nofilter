@@ -13,7 +13,7 @@ namespace nofilter
             //set dynamic vars
             const string programName = "Minecraft Bedrock Edition Language Filter Remover v2.0.1 For Minecraft Bedrock Edition 1.19.10";
             //(better?) const string filterLocation = "C:\\Program Files\\WindowsApps\\Microsoft.MinecraftUWP_1.19.1003.0_x64__8wekyb3d8bbwe\\data\\profanity_filter.wlist";
-            const string filterLocation = Directory.GetDirectories("C:\\Program Files\\WindowsApps\\", "Microsoft.MinecraftUWP_*", SearchOption.TopDirectoryOnly)[0];
+            var filterLocation = Directory.GetDirectories("C:\\Program Files\\WindowsApps\\", "Microsoft.MinecraftUWP_*", SearchOption.TopDirectoryOnly)[0];
             Console.WriteLine(filterLocation); //as a temp test
             //end of section
             
