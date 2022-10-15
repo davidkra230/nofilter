@@ -24,7 +24,8 @@ namespace nofilter
             Console.WriteLine(programName);
             Console.Title = programName;
             if (!File.Exists(filterLocation))
-            {            
+            {   
+                // TODO: ask if custom install location.
                 Console.WriteLine("No profanity_filter.wlist found\n[Any key to exit]");
                 Console.Title = "Aborted.";
                 Console.ReadKey();
