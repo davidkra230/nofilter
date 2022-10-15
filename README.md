@@ -1,9 +1,8 @@
 # nofilter
 removes the minecraft: bedrock edition language filter.
 
-**REQUIRES ADMIN**
+*this requires admin priveleges to modify minecraft's files*
 
-what else can i say?
 
-* goes to the minecraft files
+* goes to the minecraft files (custom minecraft file location support planned)
 * removes profanity-filter.wlist
