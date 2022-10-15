@@ -16,7 +16,8 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: net7.0
+        dotnet-version: 7.0
+        include-prerelease: true
     - name: Restore dependencies
       run: dotnet restore
     - name: Publish
