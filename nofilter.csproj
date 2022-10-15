@@ -5,8 +5,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <SelfContained>false</SelfContained>
     <PublishReadyToRun>true</PublishReadyToRun>
-    <PublishSingleFile>true</PublishSingleFile>
-    <publishaot>true</publishaot>
+    <PublishSingleFile>false</PublishSingleFile>
+    <PublishAot>true</PublishAot>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <DebugType>embedded</DebugType>
     <ApplicationManifest>app.manifest</ApplicationManifest>
