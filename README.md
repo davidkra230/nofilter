@@ -5,7 +5,7 @@ removes the minecraft: bedrock edition language filter.
 
 ## TODO:
 
-- [] *add more todos.*
+- [ ] *add more todos.*
 
 
 ### What it does:
