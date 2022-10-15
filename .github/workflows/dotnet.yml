@@ -16,14 +16,14 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: 3.1
+        dotnet-version: net7.0
     - name: Restore dependencies
       run: dotnet restore
     - name: Publish
-      run: dotnet publish --no-restore
+      run: dotnet publish -c Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - uses: actions/upload-artifact@v3
       with:
         name: Build Output
-        path: bin/Debug/netcoreapp3.1/win-x64/publish/nofilter.exe # or path/to/artifact
+        path: bin/Release/net7.0/win-x64/native/nofilter.exe # or path/to/artifact
