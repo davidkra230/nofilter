@@ -24,12 +24,19 @@ namespace nofilter
             Console.WriteLine(programName);
             Console.Title = programName;
             if (!File.Exists(filterLocation))
-            {   
-                // TODO: ask if custom install location.
-                Console.WriteLine("No profanity_filter.wlist found\n[Any key to exit]");
-                Console.Title = "Aborted.";
-                Console.ReadKey();
-                return;
+            {
+                Console.Write("No profanity_filter.wlist found\nAre the Minecraft files in a custom install directory? [Y/n]");
+                var input = Console.ReadKey();
+                bool run = 
+                if (!(input.Key == ConsoleKey.Enter || input.Key == ConsoleKey.Y ? true : false)) {
+                    Console.Title = "Aborted.\n[Any key to exit]";
+                    Console.ReadKey();
+                    return;
+                }
+                Console.Clear();
+                Console.Write("Where are the Minecraft files?: ");
+                customInstallDir = Console.ReadLine();
+                Main();
             }
             // check if the user actually wants to delete the filter by asking them if they want to continue if they say y or enter then delete the file
             Console.Write("Are you sure you want to delete the profanity filter? [Y/n]");
