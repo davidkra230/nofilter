@@ -5,6 +5,7 @@ removes the minecraft: bedrock edition language filter.
 
 ## TODO:
 
+- [ ] ask if game is installed in the default location after failing to find the filter location.
 - [ ] *add more todos.*
 
 
