@@ -5,7 +5,7 @@ namespace nofilter
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // take ownership of the C:\Program Files\WindowsApps\Microsoft.MinecraftUWP_1.19.202.0_x64__8wekyb3d8bbwe\data folder (folder is dynamic?)
             // then delete profanity_filter.wlist
@@ -26,7 +26,7 @@ namespace nofilter
             if (!File.Exists(filterLocation))
             {
                 Console.Write("No profanity_filter.wlist found\nAre the Minecraft files in a custom install directory? [Y/n]");
-                var input = Console.ReadKey();
+                var Input = Console.ReadKey();
                 if (!(input.Key == ConsoleKey.Enter || input.Key == ConsoleKey.Y ? true : false)) {
                     Console.Title = "Aborted.\n[Any key to exit]";
                     Console.ReadKey();
