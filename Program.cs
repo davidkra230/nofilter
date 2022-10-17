@@ -27,7 +27,6 @@ namespace nofilter
             {
                 Console.Write("No profanity_filter.wlist found\nAre the Minecraft files in a custom install directory? [Y/n]");
                 var input = Console.ReadKey();
-                bool run = 
                 if (!(input.Key == ConsoleKey.Enter || input.Key == ConsoleKey.Y ? true : false)) {
                     Console.Title = "Aborted.\n[Any key to exit]";
                     Console.ReadKey();
