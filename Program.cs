@@ -21,6 +21,7 @@ namespace nofilter
             // Console.WriteLine(filterLocation); //as a temp test
             // end of section
             
+            Console.Clear();
             Console.WriteLine(programName);
             Console.Title = programName;
             if (!File.Exists(filterLocation))
