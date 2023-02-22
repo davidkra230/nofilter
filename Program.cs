@@ -11,7 +11,7 @@ namespace nofilter
             // then delete profanity_filter.wlist
             
             // set dynamic vars
-            const string programName = "Minecraft Bedrock Edition Language Filter Remover v2.0.1 For Minecraft Bedrock Edition (Universal)";
+            const string programName = "Minecraft Bedrock Edition Language Filter Remover v2.0.3 For Minecraft Bedrock Edition (Universal)";
             //(better?) const string filterLocation = "C:\\Program Files\\WindowsApps\\Microsoft.MinecraftUWP_1.19.1003.0_x64__8wekyb3d8bbwe\\data\\profanity_filter.wlist";
             
             // the following line is meant to be "prep" for custom install directorys.
