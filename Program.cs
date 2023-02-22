@@ -26,7 +26,8 @@ namespace nofilter
             Console.Title = programName;
             if (!File.Exists(filterLocation))
             {
-                Console.Write("No profanity_filter.wlist found");
+                Console.Write("No profanity_filter.wlist found\n[Any key to exit]");
+                Console.Title = "Aborted."
                 Console.ReadKey();
                 return
             }
